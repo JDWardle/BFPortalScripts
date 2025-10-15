@@ -1,0 +1,15 @@
+{
+  "0": "0.0.1",
+  "1": "loggermessage",
+  "2": "loggercontainer",
+  "4": "OnGameModeStarted",
+  "5": "tick",
+  "6": "OnPlayerInteract eventPlayer {} eventInteractPoint {}",
+  "7": "debug log",
+  "8": "info log",
+  "9": "warning log",
+  "10": "error log",
+  "11": "OnPlayerLeaveGame: eventNumber {}",
+  "12": "OnPayerDeployed eventPlayer: {}",
+  "13": "OnPlayerDied eventPlayer: {} eventOtherPlayer: {}"
+}

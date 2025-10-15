@@ -1,0 +1,12 @@
+{
+    "extends": "../BFPortalSDK/tsconfig.json",
+    "compilerOptions": {
+        "types": [
+            "../BFPortalSDK/code/mod"
+        ],
+        "paths": {
+            "modlib": ["../BFPortalSDK/code/modlib"]
+        },
+        "outDir": "dist",
+    }
+}

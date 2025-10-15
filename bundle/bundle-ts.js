@@ -9,9 +9,6 @@ if (!fs.existsSync(outputDir)) {
 }
 
 function resolveImports(filePath, seen = new Set()) {
-    console.log(__filename);
-    console.log(__dirname);
-    console.log(process.cwd());
     let content = fs.readFileSync(filePath, 'utf-8');
     seen.add(filePath);
 
