@@ -1,0 +1,14 @@
+{
+  "name": "rush_example",
+  "version": "1.0.0",
+  "description": "Script that runs the Rush example gamemode.",
+  "main": "logging.ts",
+  "files": [
+    "../../logging/logging"
+  ],
+  "scripts": {
+    "build": "node ../../bundle/bundle-ts.js logging.ts"
+  },
+  "author": "JDWardle",
+  "license": "MIT"
+}
